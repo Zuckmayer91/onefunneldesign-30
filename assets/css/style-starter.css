@@ -6612,7 +6612,8 @@ div.ppt {
   opacity: 0.8;
 }
 
-.w3l-footer-22-main #movetop {
+/* boton devuelve a cabecera */
+/* .w3l-footer-22-main #movetop {
   position: fixed;
   bottom: 12px;
   right: 15px;
@@ -6633,7 +6634,7 @@ div.ppt {
 
 .w3l-footer-22-main #movetop:hover {
   background: #81F700;
-}
+} */
 
 @media (max-width: 992px) {
 
