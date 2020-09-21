@@ -6612,6 +6612,7 @@ div.ppt {
   opacity: 0.8;
 }
 
+
 /* boton devuelve a cabecera */
 /* .w3l-footer-22-main #movetop {
   position: fixed;
@@ -18581,4 +18582,53 @@ a.text-dark:focus {
   }
 }
 
+.menu-content{
+  width: 200px;
+  height: 130px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu-item{
+  width: 60px;
+  height: 60px;
+  background: #94FB04;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position:absolute;
+  border-radius: 50%;
+  bottom: 0%;
+  left: 70%;
+  transition: transform 300ms;
+}
+.menu-item img{
+  width: 25px;
+}
+
+.menu-item:hover{
+  background: #D4E307;
+}
+
+#menu{
+  z-index:10;
+}
+.menu-active .menu-item:nth-child(2){
+  transform: translateX(-70px);
+}
+
+.menu-active .menu-item:nth-child(3){
+  transform: translateY(-70px);
+}
+
+.menu-active .menu-item:nth-child(4){
+  transform: translateX(70px);
+}
+
+.menu-active #menu img{
+  transform: rotate(45deg);
+}
 /*# sourceMappingURL=style-starter.css.map */

@@ -597,7 +597,7 @@ hola
                     </ul>
                 </div>
                 <div class="columns copy-right col-lg-6">
-                    <p>© 2020 OneFunnelDesign todos los derechos reservados tu negocio online</a>
+                    <p>© 2020 OneFunnelDesign todos los derechos reservados</a>
                 </p>
                 </div>
             </div>
@@ -609,21 +609,37 @@ hola
      <!-- <button onclick="topFunction()" id="movetop" title="Go to top">
             <span class="fa fa-long-arrow-up"></span>
 	</button> -->
-	<div class="container">
-
-		<input type="checkbox" id="btn-mas">
-		<div class="soporte">
-			
-		</div>
+	<div class="menu-content">
+		<span class="menu-item" id="menu">
+			<img src="./assets/images/auriculares.svg " alt="soporte">
+		</span>	
+			<a href="precios.html" class="menu-item">
+				<img src="./assets/images/compras.svg" alt="compras">
+			</a>	
+			<a href="https://api.whatsapp.com/send?phone=573175602420" class="menu-item" target="_blank">
+				<img src="./assets/images/conversacion.svg" alt="compras">
+			</a>	
+			<a href="contact.html" class="menu-item">
+				<img src="./assets/images/agente-de-centro-de-llamadas.svg" alt="agente-de-centro-de-llamadas">
+			</a>	
 	</div>
-	
 	<script>
+		 const btnMenu = document.querySelector('#menu'),
+		 
+		 menuContent = document.querySelector('.menu-content');
+		 btnMenu.addEventListener('click', () => {
+         menuContent.classList.toggle('menu-active');
+		 });
+	
+	</script>
+	
+	<!--precargador  <script>
 		window.onload=function(){
 			var contenedor = document.getElementById("contenedor-carga");
 			contenedor.style.visibility = 'hiden';
 			contenedor.style.opacity = '0';
 		}
-	</script>
+	</script> -->
 	
     <script>
             // When the user scrolls down 20px from the top of the document, show the button
