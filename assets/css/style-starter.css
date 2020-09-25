@@ -18631,4 +18631,12 @@ a.text-dark:focus {
 .menu-active #menu img{
   transform: rotate(45deg);
 }
+.precio{
+
+  background: #000;
+  -webkit-background-sizing: cover;
+  background-size: cover;
+}
+
+
 /*# sourceMappingURL=style-starter.css.map */
