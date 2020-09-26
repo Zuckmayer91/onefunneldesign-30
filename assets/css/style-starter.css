@@ -18718,13 +18718,7 @@ a.text-dark:focus {
   padding:15px 15px;
   border-radius: 20px;
   font-size: 22px;
-  text-transform: uppercase;
-  transition: .3s;
-}
-
-.enlace a:hover{
-  transform: scale(1.05);
-  
+  text-transform: uppercase;  
 }
 
 .tabla:nth-child(1) {
@@ -18762,6 +18756,17 @@ a.text-dark:focus {
 
 .tabla:nth-child(3) .precio h3{
   color:#2F0896;
+}
+
+@media screen and (max-width: 750px){
+ 
+ .enlace a:hover{
+   transform: scale(1.05);
+ }
+ .tabla:hover{
+   transform: none;
+ }
+
 }
 
 /* sección de tabla de precio */
