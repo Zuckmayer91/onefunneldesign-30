@@ -18631,12 +18631,138 @@ a.text-dark:focus {
 .menu-active #menu img{
   transform: rotate(45deg);
 }
-.precio{
 
-  background: #000;
+/* sección de tabla de precio */
+.precios{
+
+  background: #D9D9D9; 
   -webkit-background-sizing: cover;
   background-size: cover;
+  font-family: Raleyway;
+  
 }
 
+.contenedor{
+  width: 100%;
+  max-width: 1150px;
+  margin: auto;
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
+.tabla{
+  margin: 10px 0px;
+  background: #fff;
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.tabla:hover{
+  transform: scale(1.05);
+}
+
+.Titulo{
+  background: chartreuse;
+  padding: 15px 0px;
+}
+
+.Titulo .fa{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.Titulo .h2{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.precio{
+  padding: 10px 0px;
+}
+
+.precio h3{
+  font-size: 30px;
+  color: chartreuse;
+}
+
+.precio h3 span{
+  font-size: 50px;
+  margin-left: 5px;
+
+}
+
+.descripcion ul li{
+  list-style: none;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 255,.5);
+
+}
+
+.descripcion ul li .fa-check{
+ color: chartreuse;
+}
+
+.enlace a{
+  display: inline-block;
+  text-decoration: none;
+  background:chartreuse ;
+  color: #fff;
+  margin:60px 0;
+  padding:15px 15px;
+  border-radius: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.enlace a:hover{
+  transform: scale(1.05);
+  
+}
+
+.tabla:nth-child(1) {
+  color: #010080 ;
+}
+.tabla:nth-child(1) .Titulo{
+  color: #fff ;
+}
+
+.tabla:nth-child(2) {
+  background: #000570;
+}
+.tabla:nth-child(2) .Titulo,
+.tabla:nth-child(2) .enlace a{
+  background: #BF9800;
+}
+.tabla:nth-child(2) .enlace a:hover{
+  transform: scale(1.05);
+}
+
+.tabla:nth-child(2) .precio h3{
+  color: #fff ;
+}
+
+.tabla:nth-child(3){
+  background: #fff;
+  color:#2F0896;
+}
+
+.tabla:nth-child(3) .Titulo,
+.tabla:nth-child(3) .enlace a{
+  background: #2F0896;
+  color:#FFF;
+}
+
+.tabla:nth-child(3) .precio h3{
+  color:#2F0896;
+}
+
+/* sección de tabla de precio */
 /*# sourceMappingURL=style-starter.css.map */
